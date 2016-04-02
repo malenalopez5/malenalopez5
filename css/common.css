@@ -55,10 +55,7 @@ header {
   border-top: 12px solid #232323;
   color: #fff;
   background: #00b7ff;
-  background: -webkit-linear-gradient(top, #00b7ff 0%, #00b7ff 100%);
-  background: linear-gradient(to bottom, #00b7ff 0%, #00b7ff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00b7ff', endColorstr='#00b7ff', GradientType=0);
-}
+  }
 header nav {
   font: 14px 'nexa_xboldregular', sans-serif;
   margin-bottom: 0 !important;
@@ -182,86 +179,9 @@ header nav .navbar-toggle {
 header nav .navbar-toggle span {
   background: #00b7ff;
 }
-.filters {
-  background: #e0e0e0;
-  padding: 15px 0;
-}
-.filters a {
-  color: #00b7ff;
-  text-transform: uppercase;
-  font-family: 'nexa_xboldregular', sans-serif;
-  padding: 5px 0;
+
 }
 
-.filters a.toggle:before {
-  content: 'Show ';
-}
-.filters a.toggle:after {
-  content: '';
-  display: block;
-  vert-align: middle;
-  background: url(../images/ic_arrow.png) no-repeat right 50%;
-  height: 24px;
-  width: 20px;
-  float: right;
-  margin-left: 10px;
-  margin-right: -12px;
-  -webkit-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: all 0.2s ease-in;
-          transition: all 0.2s ease-in;
-}
-.filters a.toggle.open:before {
-  content: 'Hide ';
-}
-.filters a.toggle.open:after {
-  -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.filters {
-  display: none;
-  padding: 15px 0 0;
-}
-
-@media (min-width: 1200px) {
-  .filters {
-    width: 240px;
-    padding-right: 30px;
-    margin-right: 10px;
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-  }
-}
-
-/*responsive*/
-.filters  .dropdown {
-  margin-top: -14px;
-}
-@media (min-width: 992px) {
-  .filters .dropdown {
-    margin-top: 44px;
-  }
-}
-@media (min-width: 768px) {
-  .filters .selects {
-    padding-right: 0;
-  }
-}
-.filters .selects .col-md-3 {
-  padding: 0 5px;
-}
-@media (min-width: 1200px) {
-  .filters  .selects {
-    width: calc(100% - 250px);
-  }
-}
-.filters .tags {
-  text-align: center;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  margin: 10px auto -15px;
-}
 .tags {
   clear: both;
   font-size: 10px;
@@ -275,13 +195,7 @@ header nav .navbar-toggle span {
   margin: 3px 2px;
   text-transform: uppercase;
 }
-.tags a {
-  display: inline-block;
-  vertical-align: middle;
-  background: url(../images/ic_close.png) no-repeat 50% 50%;
-  margin-left: 5px;
-  margin-top: -2px;
-}
+
 section.tags {
   background: #e0e0e0;
   font-size: 10px;
@@ -411,15 +325,13 @@ footer ul li a:hover {
 
 /*MAP*/
 
-#map
-  position: absolute
-  top: 0
-  bottom: 0
-  width: 100%
-
-.map-tooltip
-  background-color: rgba(255,255,255,.5)
-  width: 300px !important
-
-
-
+#map body { 
+  margin:0; 
+  padding:0; 
+}
+#map 
+{ position:absolute; 
+  top:0; 
+  bottom:0; 
+  width:100%; 
+}
