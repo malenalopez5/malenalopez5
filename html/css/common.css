@@ -234,6 +234,8 @@ header nav .navbar-toggle span {
     border-right: 1px solid rgba(0, 0, 0, 0.1);
   }
 }
+
+/*responsive*/
 .filters  .dropdown {
   margin-top: -14px;
 }
@@ -304,6 +306,7 @@ section.tags a:hover {
   background: #333;
   text-decoration: none;
 }
+/*tabs*/
 .tabs {
   background: #f0f0f0;
   padding: 30px 0;
@@ -383,8 +386,7 @@ section.tags a:hover {
   font: 10px/14px 'nexa_xboldregular', sans-serif;
   text-transform: uppercase;
 }
-
-
+/*Footer*/
 footer {
   background: #232323;
   color: #fff;
@@ -406,5 +408,18 @@ footer ul li a:hover {
   color: #00b7ff;
   text-decoration: none;
 }
+
+/*MAP*/
+
+#map
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+
+.map-tooltip
+  background-color: rgba(255,255,255,.5)
+  width: 300px !important
+
 
 

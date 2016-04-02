@@ -22,10 +22,7 @@ $( document ).ready(function() {
         $('.user h4').removeClass('over');
     });
 
-    /* Remove tags from filters */
-    $('div.tags li a').click(function(){
-        $(this).parent().fadeOut();
-    });
+  
 
 
     /* Accordion */
@@ -33,6 +30,7 @@ $( document ).ready(function() {
     //   $('.panel-heading').removeClass('open');
     //   $(this).parents('.panel-heading').addClass('open');
     //});
+
 
   
 });
